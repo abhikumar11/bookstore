@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Filter from "./Filter";
 import { useDispatch, useSelector } from "react-redux";
-import { getBook, getDetails } from "../redux/action";
+import { getBook } from "../redux/action";
 import {Link} from "react-router-dom";
 
 const BookList = () => {
